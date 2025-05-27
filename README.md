@@ -9,7 +9,7 @@ cd pruning
 pip install -r requirements.txt
 ```
 
-2. Download trained models form google drive from the link or via gdown to directory with code
+2. Download data and trained models form google drive from the link or via gdown to directory with code
 ```
 pip install gdown
 gdown https://drive.google.com/drive/folders/1RP0ZxHt09xwmx2ZG_tPZUlsVc-GGTBBW --folder
