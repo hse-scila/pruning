@@ -9,10 +9,10 @@ cd pruning
 pip install -r requirements.txt
 ```
 
-2. Download trained models form link or via python to directory with code
+2. Download trained models form google drive from the link or via gdown to directory with code
 ```
 pip install gdown
-gdown --folder '[https://drive.google.com/drive/folders/1AbCDeFGhIjKLmnopQRStUvWxYZ012345?usp=sharing](https://drive.google.com/drive/folders/1RP0ZxHt09xwmx2ZG_tPZUlsVc-GGTBBW)'
-```
+gdown https://drive.google.com/drive/folders/1RP0ZxHt09xwmx2ZG_tPZUlsVc-GGTBBW --folder
+ ```
 
 3. Run the code in experiment_reproduction.ipynb 
